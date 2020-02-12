@@ -1,0 +1,28 @@
+.main{
+    margin: 50px auto;
+    height: max-content;
+    width: 90%;
+    border: 1px solid;
+}
+
+.goods__wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.goods__wrapper .goods{
+    background: #ccc;
+    border: 1px solid rgb(167, 167, 167);
+    box-shadow: 0 0 4px 4px rgb(231, 231, 231);
+    width: 260px;
+    height: 350px;
+    margin: 50px;
+}
+
+.goods__wrapper .goods:hover{
+    transition: 500ms;
+    box-shadow: 0 0 5px 5px rgb(207, 207, 207);
+}
