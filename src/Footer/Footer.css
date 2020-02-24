@@ -1,0 +1,17 @@
+.bottom{
+    display: flex;
+    flex-flow:row;
+    margin-top:800px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bottom__input{
+    width: 120px;
+    height: 30px;
+}
+
+.bottom__btn{
+    width: 80px;
+    height: 30px;
+}

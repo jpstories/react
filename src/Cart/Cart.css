@@ -1,0 +1,22 @@
+.cartIcon{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: fixed;
+    left: 15px;
+    top: 130px;
+    width: max-content;
+    height: max-content;
+}
+
+.cartIcon__img{
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 0 2px 2px rgb(0, 255, 136);
+    border-radius: 50px;
+}
+
+.cartIcon__title{
+    font-weight: 400;
+    font-size: 0.8em;
+}
