@@ -36,6 +36,8 @@
     margin-right: 160px;
     color: rgb(77, 77, 77);
     font-size: 1.1em;
+    background: rgb(235, 235, 235);
+    border-radius: 15px;
 }
 
 .header__menu ul{
@@ -47,6 +49,7 @@
     justify-content: space-between;
     width: 850px;
     border-bottom: 2px solid rgb(69, 235, 133);
+    cursor: pointer;
 }
 
 .header__user{
@@ -75,8 +78,10 @@
 }
 
 .header__menu-active{
-    box-shadow: 0 0 2px 2px rgb(12, 185, 12);
+    box-shadow: 0 0 1px 1px rgb(12, 185, 12);
     border-radius: 4px;
+    background: rgb(24, 180, 63);
+    color: white;
 }
 
 /* @keyframes App-logo-spin {
